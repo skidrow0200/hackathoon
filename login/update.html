@@ -1,0 +1,42 @@
+<?php 
+
+
+require 'mysql_connect.php'
+
+function update_data($teamName)
+{
+
+$newTeam = null;
+if ($newTeam !== $teamName){
+	"UPDATE user SET teamName = $newTeam"
+}
+     }
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Редактирование</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<require 'mysql_connect.php'>
+<div class = "container_team">
+	 <div class = "data"> <text style="color:black">Название текущей команды: <br>
+	 	
+   
+    Выберите команду, к которой хотите присоединиться:  
+    <select required style="width: 300px;" class="form-select" name="choices">
+    	<option selected="selected" disabled="yes">Доступные команды</option>
+    	<option name="choice"></option>
+<p><input type="button" value="Сохранить" onclick="update_data()"></p>		
+					
+</body>
+</html>
+
+
+
+
+
+

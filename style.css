@@ -1,0 +1,706 @@
+    	*{
+    		margin: 0;
+    		padding: 0;
+    		box-sizing: border-box;
+    	}
+    	body{
+    		font-family: roboto;
+    	}
+
+    	h1,h2,h3,h4,h5,h6 {
+    		font-family: "Nova Round" , cursive ;
+    	}
+    	.home {
+    		background-position: center; 
+    		background-size: cover;
+    		min-height: 100vh;
+    		overflow: hidden;
+    		background-blend-mode: overlay;
+    	}
+    	.wave {
+    		position: absolute;
+    		width: 100%;
+    		padding-bottom: -5%;
+    		color: #fff;
+    		opacity: 1;
+    	}
+    	header{  
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		padding: 25px 80px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+    	}
+    	header .logo {
+  
+    		float: left;
+    	}
+    	header .menu{
+    		float: center;
+
+    		
+    	}
+    	header ul li{
+    		display: inline-block;
+    		font-size: 16px;
+    		color: #fff;
+    		margin:0px ;
+    		font-weight: 300;
+    		letter-spacing: 1px;
+    	}
+    	.content {
+    		max-width: 55%;
+    		padding: 210px 80px 0px;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		font-size: 40px;
+    	}
+    	.content p{
+    		font-size: 20px;
+    		padding: 25px 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 45px;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+
+    	#video {
+    		    position:absolute;
+    			z-index: -1;
+    			width:100%;     
+    			height: auto;
+    	}
+    	.timeline{
+    		padding:0 80px;
+    		position: relative;
+    	}
+    	.timeline h1{
+    		margin-bottom: 15px;
+    	}
+    	.timeline p{
+    		color: black;
+    		font-weight: bold;
+    		padding-left: 20%;
+    		font-size: 18px;
+    	}
+    	.timeline hr{
+    		border:none;
+    		height: 1.5px;
+    		width: 300px;
+    		background-color: #1E90FF;
+    	}
+    	.our-partners{
+    		padding:0 80px;
+    		position: relative;
+    	}
+    	.our-partners h3{
+    		font-size: 28px;
+    		margin-bottom: 15px;
+    	}
+    	.our-partners hr{
+    		border:none;
+    		height: 4px;
+    		width: 100px;
+    		background-color: #1E90FF;
+    	}
+    	.our-partners-inner{
+    		margin-top: 50px;
+    	}
+    	.our-partners-inner a {
+    		display: inline-block;
+    		width: 14%;
+    		padding: 15px;
+    		margin-right: 25px;
+    		border:1px solid #cacaca;
+    		border-radius: 20px;
+    		box-shadow: 0 5px 0 #cacaca;
+
+    	}
+    	.our-partners-inner img{
+    		width: 100%;
+    		height: 30px;
+    	}
+
+    	@media screen and (max-width: 500px) {
+		  .wave {
+		    float: none;
+		    display: none;
+		    text-align: left;
+		  }
+		  .content {
+    		max-width: 55%;
+    		padding: 50%  0;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		margin-top: 60%;
+    		font-size: 30px;
+    		color: black;
+    	}
+    	.content p{
+    		font-size: 15px;
+    		padding: 5% 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 2%;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+    	.breaks br{
+    		display: none;
+    	}
+
+    	 header .logo img{
+  
+    		
+    		width: 50px;
+    		height: 50px;
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	header .logo{
+  
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	  	.menu li{
+    		float: center;
+    		font-size: 16px;
+    		
+    	}
+    	.menu p{
+    		
+    		font-size: 16px;
+    		margin:0 auto;
+    		padding: auto;
+    		
+    	}
+
+    	    header{  
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding: 20px 60px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+    	}
+    	.later{
+    		display: none;
+    	}
+    	.seen{
+    		float: center;
+    		margin-top: 20px;
+    		margin-bottom: 10px;
+    	}
+    	.edit1 {
+    		float: left;
+    		display: none;
+    	}
+
+    	.our-partners-inner a {
+    		display: inline-block;
+    		width: 100px;
+    		padding: 15px;
+    		margin-right: 25px;
+    		border:1px solid #cacaca;
+    		border-radius: 20px;
+    		box-shadow: 0 5px 0 #cacaca;
+
+    	}
+    	.our-partners-inner img{
+    		width: 100%;
+    		height: 30px;
+    	}
+}
+
+
+
+@media screen and (max-width: 1000px) {
+          .wave {
+            float: none;
+            display: none;
+            text-align: left;
+          }
+          .content {
+            max-width: 55%;
+            padding: 5%  0;
+            margin: 0 auto;
+            color: #fff;
+        }
+        .content h1 {
+            margin-top: 20%;
+            font-size: 20px;
+            color: white;
+            font-weight: bolder;
+        }
+	#btn-login a{
+	font-size:14px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+          .wave {
+            float: none;
+            text-align: left;
+          }
+          .content {
+            max-width: 55%;
+            padding: 5%  0;
+            margin: 0 auto;
+            color: #fff;
+        }
+        .content h1 {
+            margin-top: 30%;
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+
+         .content .btn-group {
+            margin-top: 1%;
+            cursor: pointer;
+            
+        }
+
+}
+
+@media screen and (max-width: 1200px) {
+          .wave {
+            float: none;
+            text-align: left;
+          }
+          .content {
+            max-width: 55%;
+            padding: 5%  0;
+            margin: 0 auto;
+            color: #fff;
+        }
+        .content h1 {
+            margin-top: 30%;
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+
+         .content .btn-group {
+            margin-top: 1%;
+            cursor: pointer;
+            
+        }
+
+}
+
+
+    	@media screen and (max-width: 600px) {
+		  .wave {
+		    float: none;
+		    display: none;
+		    text-align: left;
+		  }
+		  .content {
+    		max-width: 55%;
+    		padding: 50%  0;
+    		margin: 0 auto;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		margin-top: 60%;
+    		font-size: 30px;
+    		color: black;
+    	}
+    	.content p{
+    		font-size: 15px;
+    		padding: 5% 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 2%;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+    	.breaks br{
+    		display: none;
+    	}
+
+    	 header .logo img{
+  
+    		
+    		width: 50px;
+    		height: 50px;
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	header .logo{
+  
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	  	.menu li{
+    		float: center;
+    		font-size: 16px;
+    		
+    	}
+    	.menu p{
+    		
+    		font-size: 16px;
+    		margin:0 auto;
+    		padding: auto;
+    		
+    	}
+
+    	    header{  
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding: 20px 60px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+    	}
+    	.later{
+    		display: none;
+    	}
+    	.seen{
+    		float: center;
+    		margin-top: 30px;
+    		margin-bottom: 10px;
+    	}
+    	.edit {
+    		float: left;
+    	}
+
+}
+
+@media screen and (max-width: 700px) {
+		  .wave {
+		    float: none;
+		    display: none;
+		    text-align: left;
+		  }
+		  .content {
+    		max-width: 55%;
+    		padding: 50%  0;
+    		margin: 0 auto;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		margin-top: 60%;
+    		font-size: 30px;
+    		color: black;
+    	}
+    	.content p{
+    		font-size: 15px;
+    		padding: 5% 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 2%;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+    	.breaks br{
+    		display: none;
+    	}
+
+    	 header .logo img{
+  
+    		
+    		width: 50px;
+    		height: 50px;
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	header .logo{
+  
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	  	.menu li{
+    		float: center;
+    		font-size: 16px;
+    		
+    	}
+    	.menu p{
+    		
+    		font-size: 16px;
+    		margin:0 auto;
+    		padding: auto;
+    		
+    	}
+
+    	    header{  
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding: 20px 60px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+    	}
+    	.later{
+    		display: none;
+    	}
+    	.seen{
+    		float: center;
+    		margin-top: 30px;
+    		margin-bottom: 10px;
+    	}
+    	.edit {
+    		float: left;
+    	}
+
+}
+
+@media screen and (max-width: 800px) {
+		  .wave {
+		    float: none;
+		    display: none;
+		    text-align: left;
+		  }
+		  .content {
+    		max-width: 55%;
+    		padding: 50%  0;
+    		margin: 0 auto;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		margin-top: 60%;
+    		font-size: 30px;
+    		color: black;
+    	}
+    	.content p{
+    		font-size: 15px;
+    		padding: 5% 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 2%;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+    	.breaks br{
+    		display: none;
+    	}
+
+    	 header .logo img{
+  
+    		
+    		width: 50px;
+    		height: 50px;
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	header .logo{
+  
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	  	.menu li{
+    		float: center;
+    		font-size: 16px;
+    		
+    	}
+    	.menu p{
+    		
+    		font-size: 16px;
+    		margin:0 auto;
+    		padding: auto;
+    		
+    	}
+
+    	    header{  
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding: 20px 60px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+    	}
+    	.later{
+    		display: none;
+    	}
+    	.seen{
+    		float: center;
+    		margin-top: 30px;
+    		margin-bottom: 10px;
+    	}
+    	.edit {
+    		float: left;
+    	}
+
+}
+
+@media screen and (max-width: 900px) {
+		  .wave {
+		    float: none;
+		    display: none;
+		    text-align: left;
+		  }
+		  .content {
+    		max-width: 55%;
+    		padding: 50%  0;
+    		margin: 0 auto;
+    		color: #fff;
+    	}
+    	.content h1 {
+    		margin-top: 60%;
+    		font-size: 30px;
+    		color: black;
+    	}
+    	.content p{
+    		font-size: 15px;
+    		padding: 5% 0 ;
+    		font-weight: 300;
+    	}
+
+    	.content .btn-group {
+    		margin-top: 2%;
+    		cursor: pointer;
+    		
+    	}
+    	.content a {
+    		display: inline-block;
+    		padding: 15px 50px;
+    		text-decoration: none;
+    		color:#fff;
+    		border-radius: 50px;
+    		font-weight: bold;
+    		
+    	}
+    	.content a.color1{
+    		background-color: #1E90FF;
+    		cursor: pointer;
+    	}
+    	.breaks br{
+    		display: none;
+    	}
+
+    	 header .logo img{
+  
+    		
+    		width: 50px;
+    		height: 50px;
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	header .logo{
+  
+    		float: center;
+    		margin: 0 auto;
+    	}
+    	  	.menu li{
+    		float: center;
+    		font-size: 16px;
+    		
+    	}
+    	.menu p{
+    		
+    		font-size: 16px;
+    		margin:0 auto;
+    		padding: auto;
+    		
+    	}
+
+    	    header{  
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding: 20px 60px;
+    		background: linear-gradient(to top, transparent, rgba(0,0,0,0.8));
+    	}
+    	.later{
+    		display: none;
+    	}
+    	.seen{
+    		float: center;
+    		margin-top: 30px;
+    		margin-bottom: 10px;
+    	}
+    	.edit {
+    		float: left;
+    	}
+
+}
+
+
+
+

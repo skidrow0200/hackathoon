@@ -1,0 +1,51 @@
+body {
+    background-color: deepskyblue;
+   background: url("../media/image.jpg") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 20px 0 50px;
+   background-size: 1550px 750px;
+    background-attachment:fixed ;
+
+}
+
+.container {
+   background: white;
+    border-radius: 100px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+            0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-bottom: 200px;
+    background-attachment:fixed;
+}
+
+h1 {
+    text-align: center; 
+    color: deepskyblue;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   float:right;
+   margin-right:50px;
+   margin-top: 200px;
+   margin-bottom: 50px;
+   cursor: pointer;
+
+   }
+
+
+
